@@ -1,0 +1,35 @@
+.residentsprofile-wrapper{
+   display: flex;
+   flex-direction: row;
+   align-items:center;
+    .resident-sidebar{
+        display: flex;
+
+        width:300px;
+        height: 100vh;
+        background-color:white;
+        padding:0.5rem;
+    }
+    .resident-contents{
+        width:100%;
+        height: 100vh;
+        background-color:rgb(229, 228, 226);
+        padding:0.5rem;
+        display: flex;
+        flex-direction:column;
+        .resident-topbar{
+            display: flex;
+            align-items:center;
+            padding-left: 1rem;
+            width:98.5%;
+            height:50px;background-color: rgb(255, 255, 255);
+        }
+        .resident-context{
+            margin-top:2px;
+            display: flex;
+            width:99.9%;
+            height:100vh;
+            background-color: rgb(255, 255, 255);
+        }
+    }
+}

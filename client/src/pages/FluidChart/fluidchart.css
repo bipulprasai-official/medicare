@@ -1,0 +1,107 @@
+.resident-context {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto;    
+  }
+  
+.fluid-section{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  
+}
+.fluid-data-section{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height: 300px;
+}
+.fluid-data-section .lastreading-tag{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height:55px;
+    padding:0 3em 0 3em;
+    box-shadow: rgba(19, 20, 22, 0.5) 0px 10px 10px -10px;
+}
+.fluid-section form .input-div{ 
+width: 300px; 
+display: flex;
+flex-direction:row;    
+justify-content:left;
+align-items: center;
+}
+.food-section form .foodinput-div{ 
+    width:100%; 
+    display: flex;
+    flex-direction:row;    
+    justify-content:left;
+    align-items: center;
+    }
+.btn{
+    width: 100px;
+    margin-right:5px;
+}
+.fluid-section form select{  
+    width: 150px;
+    height:30px;
+    margin:10px;
+    
+}
+.fluid-section form .food-typediv{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: row;
+
+}
+.fluid-section form input{  
+    width: 150px;
+    height:30px;
+    margin:10px;
+    
+}
+.fluid-section form label.label{  
+    width: 100px;
+    height:30px;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.fluid-section form .submit-btn{  
+    width: 280px;
+    height:37px;
+    border: none;
+    background-color:rgb(37, 141, 238);
+    color: #fff;
+}
+table {
+    border: 1px solid rgb(57, 58, 57);
+    color: black;
+    width:100%;
+    height:auto;
+}
+ 
+th {
+    border-bottom: 1px solid black;
+}
+ 
+td {
+    text-align: left;
+    height: 20px;
+    border: 1px solid black;
+}
+
+button{
+    width: 300px;
+    height: 40px;
+}
